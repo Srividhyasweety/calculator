@@ -1,0 +1,88 @@
+*{
+    padding: 30px;
+    margin: 0;
+    box-shadow: 0px 3px 16px rgba(66, 68, 71, 0.5);
+    background: transparent;
+
+}
+body{
+    background-color: silver;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px 8px 0 0;
+    background: silver;
+    box-shadow: 2px 2px 8px rgba(10, 8, 8, 0.4);
+ 
+}
+
+.result{
+    width: 300px;
+    border: none;
+    outline: none;
+    padding:24px;
+    margin: 1;
+    background: transparent;
+    box-shadow: inset 15px 20px 15px rgba(0,0,0,0.08),
+    10px 15px 20px rgba(0,0,0,0.08),
+    10px 15px 20px rgba(0,0,0,0.08),
+    inset -20px -25px 15px rgba(50,50,50, 0.9);
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+.buttons{
+    border: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 150%;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: inset 6px 6px 7px rgba(0,0,0,0.08),
+    7px 15px 20px rgba(0,0,0,0.08),
+    10px 15px 20px rgba(0,0,0,0.08),
+    inset -20px -20px 15px rgba(50,50,50,0.9);
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+
+ .row button{
+    width: 75px;
+    height: 75px;
+    color: black;
+    border-radius: 0 0 0 0;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s all linear; 
+} 
+
+.row button:hover{
+    background-color: peachpuff;
+}
+
+.row button:active{
+    background-color: #d82525;
+}
+
+#equal{
+    width: 150px;
+    color: darkblue;
+}
+
+#dot{
+    font-weight: 600;
+}
